@@ -1,0 +1,29 @@
+class Ascending extends Thread
+{
+public void run()
+{
+for(int i=1;i<=10;i++)
+{
+System.out.println("Ascending order: "+i);
+}
+}
+}
+class Descending extends Thread
+{
+public void run()
+{
+for(int i=10;i>0;i--)
+{
+System.out.println("Descending order: "+i);
+}
+}
+}
+class a{
+public static void main(String args[])
+{
+Ascending a=new Ascending();
+Descending d=new Descending();
+a.start();
+d.start();
+}
+}
