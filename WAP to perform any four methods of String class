@@ -1,0 +1,13 @@
+import java.util.*;
+
+ public class q9 {
+
+ public static void main(String[] args) {
+ String s1 = "JAVA";
+ String s2 = " programming ";
+ System.out.println("toLowercase: " + s1.toLowerCase());
+ System.out.println("toUppercase: " + s2.toUpperCase());
+ System.out.println("length: " + s1.length());
+ System.out.println("trim: " + s2.trim());
+ }
+ }
